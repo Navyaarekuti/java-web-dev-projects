@@ -34,7 +34,8 @@ public class HashMapGradebook {
         double sum = 0.0;
 
         for (Map.Entry<String, Double> student : students.entrySet()) {
-            System.out.println(student.getKey() + " (" + student.getValue() + ")");
+            //System.out.println(student.getKey() + " (" + student.getValue() + ")");
+            System.out.println(student.getKey() + "(" +student.getValue() + ")");
             sum += student.getValue();
         }
 
