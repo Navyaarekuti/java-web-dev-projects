@@ -44,4 +44,7 @@ public class Teacher {
     public int getYearsTeaching() {
         return yearsTeaching;
     }
+    public String toString() {
+        return "Teacher: " + firstName + " " + lastName + " (" + subject + ")";
+    }
 }
