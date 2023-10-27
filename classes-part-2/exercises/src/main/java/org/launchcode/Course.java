@@ -63,6 +63,7 @@ public class Course {
         // Create students
         Student student1 = new Student("Alice", 1, 30, 3.5);
         Student student2 = new Student("Bob", 2, 45, 3.8);
+        //Student student3 = new Student("Alice", 1, 30, 3.5);
 
         // Add students to the course
         mathCourse.addStudent(student1);

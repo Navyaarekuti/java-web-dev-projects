@@ -55,7 +55,7 @@ public class Student {
         // Example of using the Student class
         Student student1 = new Student("Alice", 1);
         student1.addGrade(3, 4.0);
-        student1.addGrade(120, 3.5);
+        student1.addGrade(2, 3.5);
         System.out.println(student1.studentInfo()); // Should display GPA
         System.out.println("Grade Level: " + student1.getGradeLevel()); // Should display "Freshman"
     }

@@ -11,13 +11,14 @@ public class countingcharBonus {
         //String str = "Geeks for Geeks is a good portal for all computer and geek students";
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string to count characters even in lowercase: ");
-        String str = sc.nextLine();
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String str = sc.next();
+       // String str = sc.nextLine();
+        String alphabet = "ABCEFGHIJKLMNOPQRSTUVWXYZD";
         char[] chararr = str.toUpperCase().toCharArray();
         //System.out.println(Arrays.toString(chararr));
         for(char ele:chararr)
         {
-            //System.out.println(alphabet.indexOf(ele));
+            System.out.println(alphabet.indexOf(ele));
             if(alphabet.indexOf(ele) >= 0)
            // System.out.println(ele);
             if(countLowercase.containsKey(ele))
@@ -30,7 +31,7 @@ public class countingcharBonus {
 
         for(Map.Entry actualcount:countLowercase.entrySet())
         {
-            System.out.println(actualcount.getKey() + "; " + actualcount.getValue());
+            System.out.println(actualcount.getKey() + ": " + actualcount.getValue());
         }
 
 

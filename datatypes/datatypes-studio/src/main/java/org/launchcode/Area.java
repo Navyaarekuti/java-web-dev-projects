@@ -38,6 +38,7 @@ public class Area {
                 // NOTE: input.next() allows the user to try again for this loop
                 // But it will also allow the scanner to advance past this loop if valid
                 // so that it can be stored in the radius variable with input.nextDouble() below
+
             }
             radius = sc.nextDouble();
 

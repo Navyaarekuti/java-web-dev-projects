@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Array {
     public static void main(String[] args) {
 
-        Collections
+        //Collections
         int[] arr = {1, 1, 2, 3, 5, 8};
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
